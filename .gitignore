@@ -497,3 +497,18 @@ MVC-Example/[Bb]in/
 MVC-Example/[Oo]bj/
 MVC-Example/[Ll]og/
 MVC-Example/[Ll]ogs/
+# Build results
+MVP-Example/[Dd]ebug/
+MVP-Example/[Dd]ebugPublic/
+MVP-Example/[Rr]elease/
+MVP-Example/[Rr]eleases/
+MVP-Example/x64/
+MVP-Example/x86/
+MVP-Example/[Ww][Ii][Nn]32/
+MVP-Example/[Aa][Rr][Mm]/
+MVP-Example/[Aa][Rr][Mm]64/
+MVP-Example/bld/
+MVP-Example/[Bb]in/
+MVP-Example/[Oo]bj/
+MVP-Example/[Ll]og/
+MVP-Example/[Ll]ogs/
