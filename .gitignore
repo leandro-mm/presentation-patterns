@@ -512,3 +512,18 @@ MVP-Example/[Bb]in/
 MVP-Example/[Oo]bj/
 MVP-Example/[Ll]og/
 MVP-Example/[Ll]ogs/
+# Build results
+MVVM-Example/[Dd]ebug/
+MVVM-Example/[Dd]ebugPublic/
+MVVM-Example/[Rr]elease/
+MVVM-Example/[Rr]eleases/
+MVVM-Example/x64/
+MVVM-Example/x86/
+MVVM-Example/[Ww][Ii][Nn]32/
+MVVM-Example/[Aa][Rr][Mm]/
+MVVM-Example/[Aa][Rr][Mm]64/
+MVVM-Example/bld/
+MVVM-Example/[Bb]in/
+MVVM-Example/[Oo]bj/
+MVVM-Example/[Ll]og/
+MVVM-Example/[Ll]ogs/
