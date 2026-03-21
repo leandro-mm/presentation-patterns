@@ -482,3 +482,18 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+# Build results
+MVC-Example/[Dd]ebug/
+MVC-Example/[Dd]ebugPublic/
+MVC-Example/[Rr]elease/
+MVC-Example/[Rr]eleases/
+MVC-Example/x64/
+MVC-Example/x86/
+MVC-Example/[Ww][Ii][Nn]32/
+MVC-Example/[Aa][Rr][Mm]/
+MVC-Example/[Aa][Rr][Mm]64/
+MVC-Example/bld/
+MVC-Example/[Bb]in/
+MVC-Example/[Oo]bj/
+MVC-Example/[Ll]og/
+MVC-Example/[Ll]ogs/
