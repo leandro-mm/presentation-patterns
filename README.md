@@ -4,12 +4,8 @@ A comprehensive guide to understanding and implementing the three most popular a
 
 ## 📋 Table of Contents
 - [Overview](#overview)
-- [MVC - Model-View-Controller](#mvc---model-view-controller)
-- [MVP - Model-View-Presenter](#mvp---model-view-presenter)
-- [MVVM - Model-View-ViewModel](#mvvm---model-view-viewmodel)
 - [Comparison Matrix](#comparison-matrix)
 - [When to Use Which Pattern](#when-to-use-which-pattern)
-- [Code Examples](#code-examples)
 - [References](#references)
 
 ## Overview
@@ -62,9 +58,9 @@ These architectural patterns separate concerns in an application, making it easi
 - You have a dedicated designer/developer workflow
 - Building complex, data-intensive applications
 
-
+put Choose MVC When,  Choose MVP When:, Choose MVVM When: in a table with 3 columns
 ## References
-[Microsoft MVP Pattern Documentation](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/ff649641(v=pandp.10))
+[Microsoft MVP Pattern Documentation](https://learn.microsoft.com/en-us/archive/msdn-magazine/2006/august/design-patterns-model-view-presenter)
 
 [Microsoft MVVM Pattern](https://docs.microsoft.com/en-us/dotnet/architecture/maui/mvvm)
 
