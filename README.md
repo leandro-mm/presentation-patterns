@@ -16,6 +16,7 @@ These architectural patterns separate concerns in an application, making it easi
 |---------|------------|---------------|
 | MVC | Model, View, Controller | Web applications, traditional desktop |
 | MVP | Model, View, Presenter | Desktop applications, Android |
+| Passive View |Model, View, Controller | best suited for projects where you want very strict separation between UI and business logic. It shines in situations where the UI should be as “dumb” as possible and all behavior lives in a controller/presenter.  Traditional UI frameworks like .NET (WinForms, WPF) and Java Swing  UI systems often mix UI and logic by default, Passive View helps enforce clean separation  |
 | Presentation Model | In the years since this pattern was written, it is increasingly known as MVVM (Model, View, ViewModel) which uses the name “ViewModel” to refer to the presentation model element of the pattern | Modern UI frameworks (WPF, Xamarin, Blazor) |
 
 ## Comparison Matrix
@@ -27,40 +28,31 @@ These architectural patterns separate concerns in an application, making it easi
 | **MVVM**<br/>*(Model-View-ViewModel)* | • **Data Binding**: Automatic UI synchronization via two-way data binding<br/>• **Maximum Testability**: ViewModels are easily unit tested<br/>• **Declarative UI**: UI behavior defined declaratively in XAML/HTML<br/>• **Reduced Boilerplate**: Less code needed for UI updates<br/>• **Separation**: View contains only visual elements, no logic<br/>• **State Management**: ViewModel maintains state independent of view<br/>• **Designer-Friendly**: Developers and designers can work simultaneously<br/>• **Commands**: Encapsulates user actions in reusable commands | • **Complex Data Binding**: Debugging binding errors can be difficult<br/>• **Performance**: Heavy data binding can impact performance<br/>• **Memory Leaks**: Improper binding cleanup can cause memory leaks<br/>• **Learning Curve**: Requires understanding of INotifyPropertyChanged, commands, and data binding<br/>• **Tooling Dependency**: Works best with frameworks like WPF, Xamarin, or Blazor<br/>• **Over-Engineering**: Simple applications may be over-engineered<br/>• **Refactoring**: Binding paths break easily when refactoring properties |
 
 ## When to Use Which Pattern
+| Choose MVC When | Choose MVP When | Choose MVVM When |
+|---------|------------|---------------|
+| Building web applications (ASP.NET Core, Spring, Rails) | Building desktop applications (Windows Forms, WPF | Building modern UI applications with data binding support (WPF, Xamarin, MAUI, Blazor) |
+| Working with frameworks that have built-in MVC support | Developing Android applications | You want to leverage declarative UI (XAML, Razor) |
+| You need a simple, straightforward architecture | You need maximum testability of business logic | Maximum separation between UI and logic is required |
+| Your application has a relatively simple UI | You want explicit control over view updates | Working with frameworks that support INotifyPropertyChanged |
+| You want to leverage convention-over-configuration | Working with UI frameworks that don't support data binding well | You have a dedicated designer/developer workflow |
+|  | You need to mock views for testing | Building complex, data-intensive applications |
 
-### Choose MVC When:
-- Building web applications (ASP.NET Core, Spring, Rails)
-- Working with frameworks that have built-in MVC support
-- You need a simple, straightforward architecture
-- Your application has a relatively simple UI
-- You want to leverage convention-over-configuration
 
-### Choose MVP When:
-- Building desktop applications (Windows Forms, WPF)
-- Developing Android applications
-- You need maximum testability of business logic
-- You want explicit control over view updates
-- Working with UI frameworks that don't support data binding well
-- You need to mock views for testing
-
-### Choose MVVM When:
-- Building modern UI applications with data binding support (WPF, Xamarin, MAUI, Blazor)
-- You want to leverage declarative UI (XAML, Razor)
-- Maximum separation between UI and logic is required
-- Working with frameworks that support INotifyPropertyChanged
-- You have a dedicated designer/developer workflow
-- Building complex, data-intensive applications
-
-put Choose MVC When,  Choose MVP When:, Choose MVVM When: in a table with 3 columns
 ## References
 [Microsoft MVP Pattern Documentation](https://learn.microsoft.com/en-us/archive/msdn-magazine/2006/august/design-patterns-model-view-presenter)
 
 [Microsoft MVVM Pattern](https://docs.microsoft.com/en-us/dotnet/architecture/maui/mvvm)
 
-[Martin Fowler's GUI Architectures](https://www.martinfowler.com/eaaDev/uiArchs.html)
-
 [ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/mvc/overview)
 
+[Martin Fowler's GUI Architectures](https://www.martinfowler.com/eaaDev/uiArchs.html)
+
+[Martin Fowler's Passive View](https://martinfowler.com/eaaDev/PassiveScreen.html)
+
+[Martin Fowler's Presentation Model](https://martinfowler.com/eaaDev/PresentationModel.html)
+
+[Martin Fowler's Supervising Controller](View https://martinfowler.com/eaaDev/SupervisingPresenter.html)
+
 ## License
-This documentation is provided under the MIT License. Feel free to use and modify for your projects.
+MIT
  
