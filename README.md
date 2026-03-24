@@ -18,10 +18,6 @@ These architectural patterns separate concerns in an application, making it easi
 | MVP | Model, View, Presenter | Desktop applications, Android |
 | MVVM | Model, View, ViewModel | Modern UI frameworks (WPF, Xamarin, Blazor) |
 
-## MVC - Model-View-Controller
-
-### Sequence Diagram
-
 ## Comparison Matrix
 
 | Pattern | Benefits | Drawbacks |
