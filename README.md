@@ -16,7 +16,7 @@ These architectural patterns separate concerns in an application, making it easi
 |---------|------------|---------------|
 | MVC | Model, View, Controller | Web applications, traditional desktop |
 | MVP | Model, View, Presenter | Desktop applications, Android |
-| MVVM | Model, View, ViewModel | Modern UI frameworks (WPF, Xamarin, Blazor) |
+| Presentation Model | In the years since this pattern was written, it is increasingly known as MVVM (Model, View, ViewModel) which uses the name “ViewModel” to refer to the presentation model element of the pattern | Modern UI frameworks (WPF, Xamarin, Blazor) |
 
 ## Comparison Matrix
 
