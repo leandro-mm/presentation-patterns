@@ -20,10 +20,7 @@ These architectural patterns separate concerns in an application, making it easi
 
 ## MVC - Model-View-Controller
 
-### Architecture Diagram
-
 ### Sequence Diagram
-
 
 ## Comparison Matrix
 
