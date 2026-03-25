@@ -20,6 +20,13 @@ These architectural patterns separate concerns in an application, making it easi
 | MVP (Classic) <br /> <br /><font size="5">*often called "Supervising Controller"</font>| Model, View, Presenter | Desktop applications, Android |
 | Presentation Model <br /><br /> <font size="5">*known as MVVM (Model, View, ViewModel) which uses the name “ViewModel” to refer to the presentation model element of the pattern </font> | Model, View, ViewModel | Modern UI frameworks (WPF, Xamarin, Blazor) |
 
+## Code
+### MVP (Passive View) x MVP (Classic)
+#### MVP (Passive View)
+| Pattern | Components | Primary Focus |
+|---------|------------|---------------|
+| 1 | 2 | 3 |
+
 ## Comparison Matrix
 
 | Pattern | Benefits | Drawbacks |
