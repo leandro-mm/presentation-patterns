@@ -25,7 +25,11 @@ These architectural patterns separate concerns in an application, making it easi
 #### MVP (Passive View)
 | Model | View | Presenter |
 |---------|------------|---------------|
-| ![Presenter Image](assets/mvp-passive-view/model.png)| ![Presenter Image](assets/mvp-passive-view/View.png) | ![Presenter Image](assets/mvp-passive-view/presenter.png) |
+| ![Presenter Image](assets/mvp-passive-view/model.png)| ![Presenter Image](assets/mvp-passive-view/VIew.png) | ![Presenter Image](assets/mvp-passive-view/presenter.png) |
+| | no business logic whatsoever | contains all bussiness logic |
+| | simply exposes UI controls as properties and raises events | handles validation, data operations, and view updates |
+| |  | acts as the mediator between view and model |
+| |  | never directly references WinForms controls |
 
 ## Comparison Matrix
 
