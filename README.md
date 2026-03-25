@@ -23,9 +23,9 @@ These architectural patterns separate concerns in an application, making it easi
 ## Code
 ### MVP (Passive View) x MVP (Classic)
 #### MVP (Passive View)
-| Pattern | Components | Primary Focus |
+| Model | View | Presenter |
 |---------|------------|---------------|
-| 1 | 2 | 3 |
+| ![Presenter Image](assets/mvp-passive-view/model.png)| ![Presenter Image](assets/mvp-passive-view/View.png) | ![Presenter Image](assets/mvp-passive-view/presenter.png) |
 
 ## Comparison Matrix
 
