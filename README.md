@@ -5,6 +5,7 @@ A comprehensive guide to understanding and implementing the three most popular a
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Comparison Matrix](#comparison-matrix)
+- [Big Picture Comparison](#big-picture-comparison)
 - [When to Use Which Pattern](#when-to-use-which-pattern)
 - [References](#references)
 
