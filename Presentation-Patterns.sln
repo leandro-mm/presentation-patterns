@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVP-Example", "MVP-Example\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM-Example", "MVVM-Example\MVVM-Example.csproj", "{45CAB03B-71CD-4A92-A159-ED52ABEECFB9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVVM-Example", "MVVM-Example", "{F95B23A0-6B24-1394-14CB-47F82948253E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF-Project", "MVVM-Example\WPF-Project\WPF-Project.csproj", "{D54E1441-FB4A-4089-A1CF-DF5B5D89411F}"
 EndProject
 Global
@@ -74,8 +72,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D54E1441-FB4A-4089-A1CF-DF5B5D89411F} = {F95B23A0-6B24-1394-14CB-47F82948253E}
 	EndGlobalSection
 EndGlobal
